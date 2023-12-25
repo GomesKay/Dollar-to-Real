@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 11.1rem;
+}
+
+.main div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main img {
+  height: 24px;
+}
+
+.arrow {
+  color: var(--tradewind);
+}
+
+.main input {
+  width: 10rem;
+  height: 2rem;
+
+  border: 0;
+  border-bottom: 2px solid var(--fun-green);
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+
+  color: var(--white);
+  background: transparent;
+}
+
+.main input:focus {
+  box-shadow: none;
+  border-color: var(--viridian);
+}
+
+.link {
+  width: 23rem;
+  height: 2rem;
+
+  border: 0;
+  border-radius: 8px;
+
+  cursor: pointer;
+  font: normal 600 24px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  background: var(--viridian);
+}
+
+.link:hover {
+  transition: 0.2s;
+  background: var(--fun-green);
+}

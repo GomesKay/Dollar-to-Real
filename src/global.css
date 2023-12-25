@@ -1,0 +1,25 @@
+:root {
+  --eden: #247158;
+  --fun-green: #186049;
+  --tradewind: #6ab29b;
+  --viridian: #2a8769;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+  box-shadow: 0 0 0 var(--fun-green);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--white);
+  background: linear-gradient(118deg, #186049 0.21%, #121224 93.58%);
+}

@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 7.2rem;
+}
+
+.main img {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main p {
+  display: flex;
+  text-align: center;
+}
+
+.link {
+  width: 23rem;
+  height: 2rem;
+
+  border: 0;
+  border-radius: 8px;
+
+  cursor: pointer;
+  font: normal 600 24px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  background: var(--viridian);
+}
+
+.link:hover {
+  transition: 0.2s;
+  background: var(--fun-green);
+}
