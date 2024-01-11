@@ -1,6 +1,9 @@
 <h1 align="center">
   :dollar: Dollar to Real
 </h1>
-## Tecnologias
+<h2>Tecnologias</h2>
 Este projeto foi desenvolvido com:
-* React.JS
+<ul>
+  <li>React.JS</li>
+</ul>
+
